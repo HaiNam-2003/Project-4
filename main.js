@@ -108,7 +108,5 @@ cvcInp.addEventListener('input', renderCvc)
 
 btn.addEventListener('click', handleSubmit)
 btnContinue.addEventListener('click', () => {
-    // successed.classList.add('hidden')
-    // form.classList.remove('hidden')
     window.location.reload()
 })
